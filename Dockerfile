@@ -79,6 +79,7 @@ RUN set -x \
     && mkdir $EJABBERD_HOME/upload \
     && mkdir $EJABBERD_HOME/database \
     && mkdir $EJABBERD_HOME/module_source \
+    && mkdir $EJABBERD_HOME/.ejabberd-modules \
     && cd $EJABBERD_HOME \
     && rm -rf /tmp/ejabberd \
     && rm -rf /etc/ejabberd \
